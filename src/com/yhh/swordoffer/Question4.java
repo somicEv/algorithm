@@ -29,7 +29,7 @@ public class Question4 {
 		// 新字符数组的最后一个字符的存放位置
 		int newCharLengthIndex = newCharArrayLength - 1;
 		// 字符数组中存在空白字符，一直处理到所有空白字符没有为止
-		while (oldCharLengthIndex >= 0 && oldCharLengthIndex > newCharLengthIndex) {
+		while (oldCharLengthIndex >= 0 && oldCharLengthIndex < newCharLengthIndex) {
 			// 如果有就替换为'%20'，没有就移动数组
 			if (string[oldCharLengthIndex] == ' ') {
 				string[newCharLengthIndex--] = '0';
