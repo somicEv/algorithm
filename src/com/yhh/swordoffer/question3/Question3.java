@@ -1,4 +1,4 @@
-package com.yhh.swordoffer;
+package com.yhh.swordoffer.question3;
 
 /**
  * @author: yuhaohan
