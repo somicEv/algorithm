@@ -6,7 +6,7 @@ package com.yhh.swordoffer.question10;
  */
 public class Question10 {
 
-	public static int numberOf1_1(int n) {
+	public static int numberOf11(int n) {
 		int count = 0;
 		int flag = 1;
 		while (n != 0) {
@@ -29,7 +29,7 @@ public class Question10 {
 
 	public static void main(String[] args) {
 
-		int i = numberOf1_1(9);
+		int i = numberOf11(9);
 		System.out.println(i);
 	}
 }

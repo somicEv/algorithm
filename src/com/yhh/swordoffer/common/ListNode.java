@@ -4,9 +4,9 @@ package com.yhh.swordoffer.common;
  * @author: yuhaohan
  * @date: 星期四
  */
-public class LinkListNode {
+public class ListNode {
 
 	public int value;
-	public LinkListNode next;
+	public ListNode next;
 
 }
